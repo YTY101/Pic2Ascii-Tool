@@ -12,3 +12,7 @@ A simple tool which turns a picture into an ascii text
 ## Examples
 * `python .\pic2ascii.py --file image.jpg`
 * `python .\pic2ascii.py --file image.jpg --out high_resolution.txt --cols 500 --morelevels`
+
+
+* An Example Picture
+<img src = "https://t.tutu.to/img/vCDAq">

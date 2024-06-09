@@ -34,10 +34,10 @@ def convertImage2Ascii(fileName, cols, scale, moreLevels = False):
     avgLs = []
     for j in range(rows):
         y1 = j * h
-        y2 = img.size[0] if j == rows - 1 else (j + 1) * h
+        y2 = img.size[1] if j == rows - 1 else (j + 1) * h
         for i in  range(cols):        
             x1 = i * w
-            x2 = img.size[1] if i == cols - 1 else (i + 1) * w    
+            x2 = img.size[0] if i == cols - 1 else (i + 1) * w    
             avgL = getAverageL(img.crop((x1, y1, x2, y2)))
             asciiimg.append(gs[int((avgL/255) * (len(gs) - 1))])
         asciiimg.append('\n')

@@ -2,7 +2,7 @@
 A simple tool which turns a picture into an ascii text
 
 ## Requirements
-* pillow
+* ```pip install pillow```
 ## How to use it 
 * --file: Name of the image you want to convert
 * --out: Output filename (a txt file) (default: out.txt)
@@ -10,8 +10,8 @@ A simple tool which turns a picture into an ascii text
 * --scale: The ratio of cols to rows (defaut: 0.43)
 * --morelevels: Present the image in a more layered way
 ## Examples
-* `python .\pic2ascii.py --file image.jpg`
-* `python .\pic2ascii.py --file image.jpg --out high_resolution.txt --cols 500 --morelevels`
+* ```python .\pic2ascii.py --file image.jpg```
+* ```python .\pic2ascii.py --file image.jpg --out high_resolution.txt --cols 500 --morelevels```
 
 
 * An Example Picture
